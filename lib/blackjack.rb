@@ -36,7 +36,7 @@ def hit?(card_total)
   # binding.pry
    if letter == 'h'
     card_total = card_total + deal_card
-    puts "Your total is #{card_total}"
+    puts "Your cards add up to #{card_total}"
    elsif letter == 's'
    else
      invalid_command
