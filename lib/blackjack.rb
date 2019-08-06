@@ -34,14 +34,16 @@ def hit?(card_total)
   prompt_user
   letter = get_user_input
   # binding.pry
-   if letter == 's'
-  #   puts "Your card total is #{card_total}."
-   elsif letter == 'h'
-  #   deal_card
-  #   puts "Your new card is #{deal_card}"
-  #   card_total = card_total + deal_card
-  #   puts "Your total is #{card_total}"
-   else
+   if letter == 'h'
+    deal_card
+    puts "Your new card is #{deal_card}"
+    card_total = card_total + deal_card
+    puts "Your total is #{card_total}"
+
+   elsif letter == 's'
+  # puts "Your card total is #{card_total}."
+
+     else
   #   invalid_command
   #   hit?(card_total)
    end
