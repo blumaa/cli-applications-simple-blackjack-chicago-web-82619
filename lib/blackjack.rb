@@ -14,6 +14,7 @@ end
 
 def prompt_user
   puts "Type 'h' to hit or 's' to stay"
+  binding.pry
 end
 
 def get_user_input
