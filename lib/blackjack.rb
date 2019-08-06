@@ -31,7 +31,7 @@ def initial_round
 end
 
 def hit?(input)
-  prompt_user
+  puts prompt_user
   get_user_input
   if get_user_input == 's'
     puts "Your card total is #{input}."
