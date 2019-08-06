@@ -56,7 +56,6 @@ end
 def runner
   welcome
   initial_round
-  binding.pry
   until total < 21 do
     hits?(total)
     display_card_total(card_total)
