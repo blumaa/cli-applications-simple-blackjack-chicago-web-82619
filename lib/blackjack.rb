@@ -58,8 +58,6 @@ def runner
   total = initial_round
   display_card_total(total)
   hits?(total)
-    binding.pry
-
   end_game
 end
     
