@@ -38,9 +38,7 @@ def hit?(card_total)
     card_total = card_total + deal_card
     puts "Your total is #{card_total}"
    elsif letter == 's'
-  # puts "Your card total is #{card_total}."
-
-     else
+   else
      invalid_command
      hit?(card_total)
    end
