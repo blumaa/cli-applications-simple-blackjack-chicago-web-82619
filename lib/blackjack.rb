@@ -32,8 +32,8 @@ end
 
 def hit?(input)
   prompt_user
-  get_user_input
-  if get_user_input == 's'
+  letter = get_user_input
+  if letter == 's'
     total = input
     puts "Your card total is #{input}."
   elsif get_user_input == 'h'
