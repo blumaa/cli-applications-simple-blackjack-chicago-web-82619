@@ -30,16 +30,15 @@ def initial_round
   sum
 end
 
-def hit?(input)
+def hit?(card_total)
   prompt_user
   letter = get_user_input
   if letter == 's'
-    total = input
-    puts "Your card total is #{input}."
-  elsif get_user_input == 'h'
+    puts "Your card total is #{card_total}."
+  elsif letter == 'h'
     deal_card
     puts "Your new card is #{deal_card}"
-    total = input + deal_card
+    total = card_total + deal_card
     puts "Your total is #{total}"
   else
     invalid_command
