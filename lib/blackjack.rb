@@ -10,7 +10,7 @@ end
 
 def display_card_total(total)
   total = puts "Your cards add up to #{total}"
-  total
+  return total
 end
 
 def prompt_user
@@ -56,7 +56,7 @@ end
 
 def runner
   welcome
-  initial_round
+  total = initial_round
   display_card_total(total)
   binding.pry
   hits?(total)
