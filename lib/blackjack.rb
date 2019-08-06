@@ -59,11 +59,6 @@ def runner
   display_card_total(card_total)
   binding.pry
   hits?(total)
-  until  < 21 do
-    binding.pry
-    
-    display_card_total(card_total)
-  end
-end_game
+  end_game
 end
     
