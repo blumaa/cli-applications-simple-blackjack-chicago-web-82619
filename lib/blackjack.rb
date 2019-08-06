@@ -38,13 +38,13 @@ def hit?(card_total)
   elsif letter == 'h'
     deal_card
     puts "Your new card is #{deal_card}"
-    total = card_total + deal_card
-    puts "Your total is #{total}"
+    card_total = card_total + deal_card
+    puts "Your total is #{card_total}"
   else
     invalid_command
-    hit?(input)
+    hit?(card_total)
   end
-  total
+  card_total
 end
 
 def invalid_command
