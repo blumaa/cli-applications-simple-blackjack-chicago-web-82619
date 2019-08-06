@@ -41,8 +41,8 @@ def hit?(card_total)
   # puts "Your card total is #{card_total}."
 
      else
-  #   invalid_command
-  #   hit?(card_total)
+     invalid_command
+     hit?(card_total)
    end
   card_total
 end
