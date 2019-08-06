@@ -58,10 +58,8 @@ def runner
   total = initial_round
   display_card_total(total)
   until total > 21 do
-    hit?(total)
+    total = hit?(total)
     display_card_total(total)
-    total = card_total
-
   end
   end_game
 end
