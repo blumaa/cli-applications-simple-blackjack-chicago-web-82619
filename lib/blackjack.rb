@@ -34,8 +34,8 @@ def hit?(input)
   prompt_user
   get_user_input
   if get_user_input == 's'
-    puts "Your card total is #{input}."
     total = input
+    puts "Your card total is #{input}."
   elsif get_user_input == 'h'
     deal_card
     puts "Your new card is #{deal_card}"
