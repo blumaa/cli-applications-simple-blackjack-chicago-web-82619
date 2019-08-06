@@ -32,7 +32,7 @@ end
 
 def hit?(card_total)
   prompt_user
-  # letter = get_user_input
+  letter = get_user_input
   # binding.pry
   # if letter == 's'
   #   puts "Your card total is #{card_total}."
